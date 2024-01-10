@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VALKYRIE SCHOOL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/valky.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'public sans', sans-serif;}
+
+    .logo{
+    width: 50px;
+}
+
+nav.navbar{
+    margin: 20px 40px;
+    padding: 10px;
+    background-color: rgba(228, 218, 218, 0.979);
+    width: 95%;
+    height: 55px;
+    border-radius: 90px;
+}
+/* -------------PROFIL START----------- */
+#profil{
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+/* -------------PROFIL END------------ */
+
+/*-------------FASILITAS START---------*/
+#fasilitas {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#fasilitas h1 {
+  color: black;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.row img {
+  width: 70%;
+}
+
+.course-col {
+  flex-basis: 31%;
+  background: #faf6f0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.course-col p {
+  font-weight: 500;
+}
+/*-------------FASILITAS END---------*/
+
+/* ------------FOOTER START---------------- */
+footer{
+    background: #343434;
+    font-size: 16px;
+    color: white;
+    padding-top: 50px;
+}
+.container1{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #ff006ab2;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff006ab2;
+}
+.social-icons i:hover{
+    color: #ff006ab2;
+}
+.bottom-bar{
+    background: #ff006ab2;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+/* ------------FOOTER END---------------- */
+    </style>
+  </head>
+
+
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/valky.png" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="valkysch.html">BERANDA</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profil.html">PROFIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="akademik.html">AKADEMIK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeri.html">GALERI</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="informasi.html">INFORMASI</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  <!-- NAVBAR END -->
+
+  <!-- PROFIL START -->
+  <section id="profil">
+    <h1>Struktur Sekolah</h1>
+    <div class="line"></div>
+    <img src="img/profil.jpg">
+  </section>
+  <!-- PROFIL END -->
+
+
+  <!-- FASILITAS START -->
+  <section id="fasilitas">
+    <h1>Fasilitas Sekolah</h1>
+    <div class="line"></div>
+    <div class="row">
+      <div class="course-col">
+        <img src="img/rkelas.jpeg">
+        <h3>Ruang Kelas</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/lab kom.jpeg">
+        <h3>Ruang Komputer</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/lab.jpeg">
+        <h3>Laboratorium</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/perpus.jpeg">
+        <h3>Perpustakaan</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/uks.jpeg">
+        <h3>UKS</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/kantin.jpeg">
+        <h3>Kantin</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/toilet.jpeg">
+        <h3>Toilet</h3>
+      </div>
+      <div class="course-col">
+        <img src="img/lapangan.jpeg">
+        <h3>Lapangan</h3>
+      </div>
+      
+    </div>
+  </section>
+  <!-- FASILITAS END -->
+
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="container1">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: <br>valkyrie@school.com</p>
+            <p>Phone:<br>+12 345 678</p>
+            <p>Address:<br>Shibuya Street</p>
+        </div>
+        <div class="footer-content">
+          <h3>Pembelajaran Lainnya</h3>
+           <ul class="list">
+              <li><a href="https://www.ruangguru.com/" target="_blank">Ruangguru</a></li>
+              <li><a href="https://www.zenius.net/" target="_blank">Zenius</a></li>
+              <li><a href="https://classroom.google.com/">Google Classroom</a></li>
+           </ul>
+      </div>
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+             <li><a href=""><i class="bi bi-facebook"></i></a></li>
+             <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
+             <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; 2024 Valkyrie School . All rights reserved</p>
+    </div>
+</footer>
+  <!-- FOOTER END -->
+     
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VALKYRIE SCHOOL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/valky.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'public sans', sans-serif;}
+
+    .logo{
+    width: 50px;
+}
+
+nav.navbar{
+    margin: 20px 40px;
+    padding: 10px;
+    background-color: rgba(228, 218, 218, 0.979);
+    width: 95%;
+    height: 55px;
+    border-radius: 90px;
+}
+/* ------------BERANDA START---------------- */
+    #features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#features h1 {
+  color: black;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.row img {
+  width: 50%;
+}
+
+.course-col {
+  flex-basis: 31%;
+  background: #faf6f0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.course-col p {
+  font-weight: 500;
+}
+/* ------------BERANDA END---------------- */
+
+/* ------------FOOTER START---------------- */
+footer{
+    background: #343434;
+    font-size: 16px;
+    color: white;
+    padding-top: 50px;
+}
+.container1{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #ff006ab2;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff006ab2;
+}
+.social-icons i:hover{
+    color: #ff006ab2;
+}
+.bottom-bar{
+    background: #ff006ab2;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+/* ------------FOOTER END---------------- */
+       
+    </style>
+  </head>
+
+
+
+  <body>
+     <!-- NAVBAR START -->
+     <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/valky.png" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="valkysch.html">BERANDA</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profil.html">PROFIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="akademik.html">AKADEMIK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeri.html">GALERI</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="informasi.html">INFORMASI</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  <!-- NAVBAR END -->
+
+  <!-- BERANDA START -->
+  <section id="features">
+    <h1>Tentang Kami</h1>
+    <div class="line"></div>
+    <div class="row">
+      <div class="course-col">
+        <h3>Visi Misi</h3>
+        <p>Visi : <br> 
+            "Menjadi lembaga pendidikan unggul yang menginspirasi, membimbing, dan membentuk generasi penerus yang berkarakter, kreatif, dan mampu berkontribusi positif dalam masyarakat global."<br> 
+            Misi : <br> 
+            1. Memberikan Pendidikan Berkualitas <br>
+            2. Membangun Karakter Unggul <br>
+            3. Menggalakan Kreativitas dan Inovasi <br>
+            4. Memberikan Dukungan Khusus Untuk Siswa
+          </p>
+      </div>
+      <div class="course-col">
+        <h3>Kebijakan Sekolah</h3>
+        <p>1. Kebijakan Pendidikan Berkualitas: <br>
+            Menjamin penerapan kurikulum yang terkini dan relevan, serta memastikan bahwa semua mata pelajaran disajikan dengan cara yang menarik dan memotivasi siswa untuk belajar. <br>
+            2. Kebijakan Karakter dan Etika: <br> Mendorong dan mendukung program pembentukan karakter yang mencakup nilai-nilai moral, etika, kepemimpinan, dan tanggung jawab sosial. <br>
+            3. Kebijakan Kreativitas dan Inovasi:  <br>Menyediakan dukungan dan sarana untuk mengembangkan kreativitas dan inovasi melalui pelaksanaan program ekstrakurikuler, proyek-proyek penelitian, dan kegiatan seni. <br>
+            4. Kebijakan Dukungan Khusus untuk Siswa: <br>Menyediakan layanan dukungan khusus untuk siswa yang membutuhkan, dengan menyelenggarakan program pembelajaran tambahan, konseling, dan bimbingan.
+          </p>
+      </div>
+      <div class="course-col">
+        <img src="img/akre.png" />
+        <p>Kurikulum di Sekolah Valkyrie didesain untuk menciptakan pengalaman belajar yang holistik, menekankan pengembangan akademik, karakter, kreativitas, dan keterampilan untuk mempersiapkan siswa menjadi pemimpin masa depan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BERANDA END -->
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="container1">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: <br>valkyrie@school.com</p>
+            <p>Phone:<br>+12 345 678</p>
+            <p>Address:<br>Shibuya Street</p>
+        </div>
+        <div class="footer-content">
+          <h3>Pembelajaran Lainnya</h3>
+           <ul class="list">
+              <li><a href="https://www.ruangguru.com/" target="_blank">Ruangguru</a></li>
+              <li><a href="https://www.zenius.net/" target="_blank">Zenius</a></li>
+              <li><a href="https://classroom.google.com/">Google Classroom</a></li>
+           </ul>
+      </div>
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+             <li><a href=""><i class="bi bi-facebook"></i></a></li>
+             <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
+             <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; 2024 Valkyrie School . All rights reserved</p>
+    </div>
+</footer>
+  <!-- FOOTER END -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
